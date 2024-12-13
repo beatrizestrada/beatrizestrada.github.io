@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 ---
 I am a portuguese exoplanet scientist, currently a postdoctoral reseacher at the <a href="https://www.mpia.de/institute/scientific-departments/atmospheric-physics-of-exoplanets">Atmospheric Physics for Exoplanet Atmospheres (APEx) </a> department at the <a href="https://www.mpia.de/en">Max Planck Institute for Astronomy</a> in Heidelberg. I am part of the <a href="https://www.mpia.de/en/apex/research/atmosphere-modeling">atmospheric modelling and retrieval group </a>.
 
-My research spans over a diversity of topics within <b>exoplanet science</b>. My major research interest lies in linking theory to observations via modelling, with the goal of obtaining constraints on a diverse set of parameters to get us closer to understanding the still uncertain planet formation and planet evolution processes. I like all exoplanets - big or small, gaseous or rocky! You can find my publications at the [publications page](publications).
+My research spans over a diversity of topics within <b>exoplanet science</b>. My major research interest lies in linking theory to observations via modelling, with the goal of obtaining constraints on a diverse set of parameters to get us closer to understanding the still uncertain planet formation and planet evolution processes. I like all exoplanets - big or small, gaseous or rocky!
 
 I attained a joint doctorate degree (PhD in Astrophysics/ Doktor der Naturwissenschaften) from the University of Copenhagen (Denmark) and the Graz University of Technology (Austria) in October 2024. During my PhD I was an early stage researcher at the <a href="https://chameleon.iwf.oeaw.ac.at/">CHAMELEON</a> Marie-Curie innovative training network.
 
