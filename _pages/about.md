@@ -2,24 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Postdoctoral Researcher at the Max Planck Institute for Astronomy, APEx department.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Max-Planck-Institut für Astronomie</p>
+    <p>Königstuhl 17</p>
+    <p>D-69117 Heidelberg</p>
+    <p>Germany</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+I am a portuguese exoplanet scientist, currently a postdoctoral reseacher at the <a href="https://www.mpia.de/institute/scientific-departments/atmospheric-physics-of-exoplanets">Atmospheric Physics for Exoplanet Atmospheres (APEx) </a> department at the <a href="https://www.mpia.de/en">Max Planck Institute for Astronomy</a> in Heidelberg. I am part of the <a href="https://www.mpia.de/en/apex/research/atmosphere-modeling">atmospheric modelling and retrieval group </a>.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research spans over a diversity of topics within <b>exoplanet science</b>. My major research interest lies in linking theory to observations via modelling, with the goal of obtaining constraints on a diverse set of parameters to get us closer to understanding the still uncertain planet formation and planet evolution processes. I like all exoplanets - big or small, gaseous or rocky! You can find my publications at the [publications page](publications).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I attained a joint doctorate degree (PhD in Astrophysics/ Doktor der Naturwissenschaften) from the University of Copenhagen (Denmark) and the Graz University of Technology (Austria) in October 2024. During my PhD I was an early stage researcher at the <a href="https://chameleon.iwf.oeaw.ac.at/">CHAMELEON</a> Marie-Curie innovative training network.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+If you are looking for someone enthusiastic to talk (almost) all things exoplanets, please feel free to reach out to me - I am available to have an informal chat or teach about what I know/do.
+
+You can contact me at <b> <a href="mailto:becampos@mpia.de"> becampos@mpia.de</a></b>.
