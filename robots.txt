@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://beatrizestrada.github.io/sitemap.xml
