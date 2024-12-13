@@ -48,9 +48,9 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-bib_search: true
+search_enabled: false
+socials_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -202,6 +202,7 @@ exclude:
   - _pages/profiles.md
   - _pages/repositories.md
   - _pages/teaching.md
+  - _pages/dropdown.md
   - purgecss.config.js
   - README.md
   - readme_preview/
