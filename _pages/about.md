@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 **I am a postdoctoral researcher in the <a href="https://www.mpia.de/institute/scientific-departments/atmospheric-physics-of-exoplanets">Atmospheric Physics for Exoplanet Atmospheres (APEx) </a> department at the <a href="https://www.mpia.de/en">Max Planck Institute for Astronomy</a> in Heidelberg, where I am part of the atmospheric modelling and retrievals group.**
 
-**My major research interest lies in linking theory to observations of exoplanets via different modelling techniques.** My experience spans testing atmospheric mass-loss models for sub-Neptunes, constraining the compositions of small exoplanets, and modelling the atmospheres of directly imaged planets and brown dwarfs with complex cloud formation.
+**My major research interest lies in linking theory to observations of exoplanets via different modelling techniques.** My experience spans testing atmospheric escape models for sub-Neptunes, constraining the compositions of small exoplanets, and modelling the atmospheres of directly imaged planets and brown dwarfs with complex cloud formation.
 
 I hold a joint PhD in Astrophysics from the University of Copenhagen (Denmark) and the Graz University of Technology (Austria), completed in October 2024 as part of the <a href="https://chameleon.iwf.oeaw.ac.at/">CHAMELEON</a> Marie-Curie innovative training network. 
 
