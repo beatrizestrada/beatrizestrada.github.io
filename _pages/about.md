@@ -8,11 +8,7 @@ profile:
   align: right
   image: pp.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Max-Planck-Institut für Astronomie</p>
-    <p>Königstuhl 17</p>
-    <p>D-69117 Heidelberg</p>
-    <p>Germany</p>
+  more_info: 
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
