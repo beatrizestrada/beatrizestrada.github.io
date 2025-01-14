@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 I hold a joint PhD in Astrophysics from the University of Copenhagen (Denmark) and the Graz University of Technology (Austria), completed in October 2024 as part of the <a href="https://chameleon.iwf.oeaw.ac.at/">CHAMELEON</a> Marie-Curie innovative training network. 
 
-**For more details, please see my <a href="[https://drive.google.com/file/d/15NRJTUM4HwLlCYNbRY0GrrjyxqZ2tK34/view?usp=sharing](https://drive.google.com/file/d/16qI-ZKcs9ysqHnegxR_v3GqgzW1C2xMM/view?usp=sharing)">CV</a>.** 
+**For more details, please see my <a href="https://drive.google.com/file/d/16qI-ZKcs9ysqHnegxR_v3GqgzW1C2xMM/view?usp=sharing">CV</a>.** 
 
 **You can find my PhD thesis here:** ***<a href="https://nbi.ku.dk/english/theses/phd-theses/beatriz-maria-campos-estrada/Beatriz-Maria-Campos-Estrada.pdf">From dusty tails to cloudy skies</a>***.
 
