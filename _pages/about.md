@@ -6,7 +6,7 @@ subtitle: Exoplanet Scientist
 
 profile:
   align: right
-  image: pp.jpg
+  image: profile_pics.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 
