@@ -149,6 +149,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  pages:
+    output: true
+    permalink: /:path/
 
 announcements:
   enabled: false
@@ -202,7 +205,6 @@ exclude:
   - _pages/repositories.md
   - _pages/teaching.md
   - _pages/dropdown.md
-  - _pages/cv.md
   - purgecss.config.js
   - README.md
   - readme_preview/

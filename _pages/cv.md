@@ -1,7 +1,7 @@
 ---
-title: CV
-permalink: /CamposEstrada_CV_Jul25.pdf
+title: cv
+permalink: /CamposEstrada_CV.pdf
 nav: true
-nav_order: 100
+nav_order: 3
 external: true
 ---
