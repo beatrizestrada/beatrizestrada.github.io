@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @config "./tailwind.config.js";
 
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
-
 @layer base {
   button:not(:disabled),
   [role="button"]:not(:disabled) {

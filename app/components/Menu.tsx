@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { NavLink } from "./NavLink";
 import { MenuButton } from "./MenuButton";

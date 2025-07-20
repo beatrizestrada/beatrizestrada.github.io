@@ -1,49 +1,31 @@
-"use client";
 import "@/globals.css";
 import Head from "next/head";
-import { useEffect, useState } from "react";
 import { NavLink } from "./components/NavLink";
 import { Socials } from "./components/Socials";
 import { ColorSwitch } from "./components/ColorSwitch";
 import { Menu } from "./components/Menu";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Beatriz Campos Estrada PhD",
+  description:
+    "Postdoctoral researcher at the Max Planck Institute for Astronomy, focused on connecting theory to observations of exoplanets via different modelling techniques",
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [colorScheme, setColorScheme] = useState<"light" | "dark">("light");
-
-  function toggleColorScheme() {
-    setColorScheme((prevScheme) => {
-      const newScheme = prevScheme === "light" ? "dark" : "light";
-      localStorage.setItem("color-scheme", newScheme);
-      return newScheme;
-    });
-  }
-
-  useEffect(() => {
-    const savedScheme = localStorage.getItem("color-scheme") as
-      | "light"
-      | "dark";
-    if (savedScheme) {
-      setColorScheme(savedScheme);
-    } else {
-      const prefersDark = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches;
-      setColorScheme(prefersDark ? "dark" : "light");
-    }
-  }, []);
-
   return (
-    <html lang="en" data-theme={colorScheme}>
+    <html lang="en">
       <Head>
         <title>Beatriz Campos Estrada PhD</title>
         <meta
           name="description"
           content="Postdoctoral researcher at the Max Planck Institute for Astronomy, focused on connecting theory to observations of exoplanets via different modelling techniques"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link href="/dist/styles.css" rel="stylesheet" />
       </Head>
       <body className="dark:bg-zinc-900 dark:text-zinc-100">
@@ -58,10 +40,7 @@ export default function RootLayout({
             <Menu />
             <div className="flex items-center gap-6">
               <Socials />
-              <ColorSwitch
-                currentColor={colorScheme}
-                toggle={toggleColorScheme}
-              />
+              <ColorSwitch />
             </div>
           </div>
         </header>
