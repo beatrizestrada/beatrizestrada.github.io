@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@config "./tailwind.config.js";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1 {
+    @apply text-3xl font-light;
+  }
+
+  h2 {
+    @apply text-2xl font-light;
+  }
+
+  h3 {
+    @apply text-xl font-light;
+  }
+
+  p {
+    @apply text-base font-light;
+  }
+
+  a {
+    @apply text-primary-500 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300;
+  }
+
+  b {
+    @apply font-semibold;
+  }
+}
