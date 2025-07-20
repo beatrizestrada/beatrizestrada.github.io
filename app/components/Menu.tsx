@@ -7,6 +7,12 @@ export function Menu() {
 
   const toggleMenu = () => {
     setExpanded((prev) => !prev);
+
+    if (!expanded) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
   };
 
   return (
