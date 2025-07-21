@@ -17,6 +17,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const displayDate = process.env.DEPLOY_DATE
+    ? "Last updated: " +
+      new Date(process.env.DEPLOY_DATE).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })
+    : "";
+
   return (
     <html lang="en">
       <Head>
@@ -47,6 +56,20 @@ export default function RootLayout({
         <div className="container mx-auto py-8 px-4 xl:max-w-7xl">
           {children}
         </div>
+        <footer className="fixed w-full flex justify-center p-1.5 bottom-0 bg-primary-50 dark:bg-zinc-800">
+          <p className="text-xs">
+            © Copyright 2025 Beatriz Campos Estrada. Inspired by{" "}
+            <a
+              href="https://github.com/alshedivat/al-folio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              al-folio
+            </a>
+            {"  "}
+            theme. {displayDate}
+          </p>
+        </footer>
       </body>
     </html>
   );
