@@ -18,11 +18,11 @@ export const publications: Publication[] = [
     author: "Nick Tusay",
     otherAuthors:
       "Jason T. Wright, Thomas G. Beatty, Steve Desch, Knicole Colón, Tushar Mittal, Hugh P. Osborn, Beatriz Campos Estrada, James E. Owen, Jessica Libby-Roberts, Arvind F. Gupta, Brad Foley, Erik Meier Valdés, Daniel J. Stevens, Ashley Herbst",
-    journal: "arXiv e-prints",
-    month: 1,
+    journal: "ApJL",
+    month: 7,
     year: 2025,
-    doi: "https://doi.org/10.48550/arXiv.2501.08301",
-    ads: "https://ui.adsabs.harvard.edu/abs/2025arXiv250108301T",
+    doi: "https://doi.org/10.3847/2041-8213/addfd0",
+    ads: "https://ui.adsabs.harvard.edu/abs/2025ApJ...987L...6T%2F",
   },
   {
     id: 2,
