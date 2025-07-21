@@ -41,7 +41,7 @@ export default function Publication({
   const date = `${monthMap(month, true)} ${year}`;
 
   return (
-    <div>
+    <div className="max-w-2xl">
       <p className="font-semibold">{title}</p>
       <p>
         <span

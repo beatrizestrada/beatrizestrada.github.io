@@ -1,5 +1,4 @@
 export interface Publication {
-  id: number;
   title: string;
   author: string;
   journal: string;
@@ -8,11 +7,11 @@ export interface Publication {
   otherAuthors?: string;
   doi?: string;
   ads?: string;
+  highlight?: boolean;
 }
 
 export const publications: Publication[] = [
   {
-    id: 1,
     title:
       "A Disintegrating Rocky World Shrouded in Dust and Gas: Mid-IR Observations of K2-22b using JWST",
     author: "Nick Tusay",
@@ -25,7 +24,6 @@ export const publications: Publication[] = [
     ads: "https://ui.adsabs.harvard.edu/abs/2025arXiv250108301T",
   },
   {
-    id: 2,
     title:
       "The MSG model for cloudy sub-stellar atmospheres: A grid of self-consistent sub-stellar atmosphere models with microphysical cloud formation",
     author: "Beatriz Campos Estrada",
@@ -36,9 +34,9 @@ export const publications: Publication[] = [
     year: 2025,
     doi: "https://doi.org/10.1051/0004-6361/202451562",
     ads: "https://ui.adsabs.harvard.edu/abs/2025A&A...694A.275C",
+    highlight: true,
   },
   {
-    id: 3,
     title:
       "A grid of self-consistent MSG (MARCS-StaticWeather-GGchem) cool stellar, sub-stellar, and exoplanetary model atmospheres",
     author: "Uffe G. Jørgensen",
@@ -51,7 +49,6 @@ export const publications: Publication[] = [
     ads: "https://ui.adsabs.harvard.edu/abs/2024A&A...690A.127J",
   },
   {
-    id: 4,
     title:
       "On the likely magnesium-iron silicate dusty tails of catastrophically evaporating rocky planets",
     author: "Beatriz Campos Estrada",
@@ -62,9 +59,9 @@ export const publications: Publication[] = [
     year: 2024,
     doi: "https://doi.org/10.1093/mnras/stae095",
     ads: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.1249C",
+    highlight: true,
   },
   {
-    id: 5,
     title:
       "Masses and compositions of three small planets orbiting the nearby M dwarf L231-32 (TOI-270) and the M dwarf radius valley",
     author: "V. Van Eylen",
@@ -77,7 +74,6 @@ export const publications: Publication[] = [
     ads: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.2154V",
   },
   {
-    id: 6,
     title: "Testing exoplanet evaporation with multitransiting systems",
     author: "James E. Owen",
     otherAuthors: "Beatriz Campos Estrada",
