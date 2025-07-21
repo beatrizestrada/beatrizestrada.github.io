@@ -33,9 +33,10 @@ export default function Publication({
   ads,
 }: PublicationProps) {
   const [showFullAuthors, setShowFullAuthors] = useState(false);
-  const referenceAuthor = "Beatriz Campos Estrada";
+  const referenceAuthors = ["Beatriz Campos Estrada"];
   const otherAuthorsList = splitOtherAuthors(otherAuthors);
   const authorsWithinLimit = countAuthorsWithinLimit(otherAuthorsList, 200);
+  const isReferenceAuthor = referenceAuthors.includes(author);
 
   const date = `${monthMap(month, true)} ${year}`;
 
@@ -44,9 +45,7 @@ export default function Publication({
       <p className="font-semibold">{title}</p>
       <p>
         <span
-          className={
-            referenceAuthor === author ? "underline underline-offset-3" : ""
-          }
+          className={isReferenceAuthor ? "underline underline-offset-3" : ""}
         >
           {author}
         </span>
@@ -56,9 +55,7 @@ export default function Publication({
               <span>{", "}</span>
               <span
                 className={
-                  referenceAuthor === author
-                    ? "underline underline-offset-3"
-                    : ""
+                  isReferenceAuthor ? "underline underline-offset-3" : ""
                 }
               >
                 {author}
@@ -85,12 +82,22 @@ export default function Publication({
       {(doi || ads) && (
         <div className="flex space-x-2 mt-3">
           {doi && (
-            <a href={doi} className="outline-1 px-3 py-0.5 rounded text-sm">
+            <a
+              href={doi}
+              className="outline-1 px-3 py-0.5 rounded text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               DOI
             </a>
           )}
           {ads && (
-            <a href={ads} className="outline-1 px-3 py-0.5 rounded text-sm">
+            <a
+              href={ads}
+              className="outline-1 px-3 py-0.5 rounded text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               ADS
             </a>
           )}
