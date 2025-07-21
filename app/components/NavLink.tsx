@@ -17,11 +17,11 @@ export function NavLink({
   return (
     <Link
       href={href}
-      className={`transition-colors ${
+      className={
         isActive
           ? ""
           : "text-gray-700 dark:text-gray-100 hover:text-primary-700 dark:hover:text-primary-300"
-      } `}
+      }
       onClick={onClick}
     >
       {children}
