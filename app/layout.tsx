@@ -57,7 +57,7 @@ export default function RootLayout({
           {children}
         </div>
         <footer className="fixed w-full flex justify-center p-1.5 bottom-0 bg-primary-50 dark:bg-zinc-800">
-          <p className="text-xs">
+          <p className="text-xs text-center">
             © Copyright 2025 Beatriz Campos Estrada. Inspired by{" "}
             <a
               href="https://github.com/alshedivat/al-folio"
