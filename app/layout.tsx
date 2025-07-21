@@ -30,7 +30,7 @@ export default function RootLayout({
       </Head>
       <body className="dark:bg-zinc-900 dark:text-zinc-100">
         <header className="flex sticky top-0 bg-white/90 space-x-4 border-b border-b-gray-200 dark:border-b-gray-700 dark:bg-zinc-900/95">
-          <div className="flex container mx-auto justify-between items-center p-4 w-full">
+          <div className="flex container mx-auto justify-between items-center p-4 w-full xl:max-w-7xl">
             <nav className="hidden sm:flex space-x-2">
               <NavLink href="/">about</NavLink>
               <NavLink href="/publications">publications</NavLink>
@@ -44,7 +44,9 @@ export default function RootLayout({
             </div>
           </div>
         </header>
-        <div className="container mx-auto py-8 px-4">{children}</div>
+        <div className="container mx-auto py-8 px-4 xl:max-w-7xl">
+          {children}
+        </div>
       </body>
     </html>
   );

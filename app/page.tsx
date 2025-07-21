@@ -10,7 +10,7 @@ export default function Home() {
         <h1>
           Beatriz <b>Campos Estrada</b> PhD
         </h1>
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-16">
           <Info />
           <PhotoCard />
         </div>
