@@ -50,18 +50,21 @@ export default function Publication({
           {author}
         </span>
         {otherAuthors &&
-          otherAuthorsList.slice(0, authorsWithinLimit).map((author, index) => (
-            <span key={index}>
-              <span>{", "}</span>
-              <span
-                className={
-                  isReferenceAuthor ? "underline underline-offset-3" : ""
-                }
-              >
-                {author}
+          otherAuthorsList.slice(0, authorsWithinLimit).map((author, index) => {
+            const isReferenceAuthor = referenceAuthors.includes(author);
+            return (
+              <span key={index}>
+                <span>{", "}</span>
+                <span
+                  className={
+                    isReferenceAuthor ? "underline underline-offset-3" : ""
+                  }
+                >
+                  {author}
+                </span>
               </span>
-            </span>
-          ))}
+            );
+          })}
         {otherAuthorsList.length > authorsWithinLimit && (
           <>
             <span>{!showFullAuthors ? `, and ` : `, `}</span>
