@@ -37,7 +37,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link href="/dist/styles.css" rel="stylesheet" />
       </Head>
-      <body className="dark:bg-zinc-900 dark:text-zinc-100">
+      <body className="dark:bg-zinc-900 dark:text-zinc-100 pb-11 sm:pb-7">
         <header className="flex sticky top-0 bg-white/90 space-x-4 border-b border-b-gray-200 dark:border-b-gray-700 dark:bg-zinc-900/95">
           <div className="flex container mx-auto justify-between items-center p-4 w-full xl:max-w-7xl">
             <nav className="hidden sm:flex space-x-2">
