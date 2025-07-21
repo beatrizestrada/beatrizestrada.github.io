@@ -41,13 +41,24 @@ export function ColorSwitch(): ReactElement {
   return (
     <button
       onClick={toggleColorScheme}
-      className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100 p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-white/5 aspect-square border border-gray-200 dark:border-gray-700"
+      className="text-gray-500 hover:text-primary-800 dark:hover:text-primary-100 p-2 rounded-sm hover:bg-primary-50 dark:hover:bg-primary-500/5 aspect-square border border-gray-200 dark:border-gray-700"
     >
-      {currentColor === "dark" ? (
-        <DarkIcon className="h-4 w-4" />
-      ) : (
-        <LightIcon className="h-4 w-4" />
-      )}
+      <span className="block relative h-4 w-4">
+        <span
+          className={`absolute inset-0 transition-opacity ${
+            currentColor === "dark" ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <DarkIcon className="h-4 w-4" />
+        </span>
+        <span
+          className={`absolute inset-0 transition-opacity ${
+            currentColor === "light" ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <LightIcon className="h-4 w-4" />
+        </span>
+      </span>
     </button>
   );
 }

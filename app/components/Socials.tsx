@@ -4,6 +4,8 @@ import { OrcidIcon } from "./icons/OrcidIcon";
 import { ScholarIcon } from "./icons/ScholarIcon";
 
 export function Socials() {
+  const iconClass =
+    "h-6 text-gray-500 dark:text-gray-300 hover:text-primary-700 dark:hover:text-primary-300 cursor-pointer";
   return (
     <div className="flex space-x-1 ">
       <a
@@ -11,28 +13,28 @@ export function Socials() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <OrcidIcon className="h-6 text-gray-500 dark:text-gray-300 hover:text-primary-400 cursor-pointer" />
+        <OrcidIcon className={iconClass} />
       </a>
       <a
         href="https://scholar.google.com/citations?user=vA4P-dAAAAAJ&hl"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <ScholarIcon className="h-6 text-gray-500 dark:text-gray-300 hover:text-primary-400 cursor-pointer" />
+        <ScholarIcon className={iconClass} />
       </a>
       <a
         href="https://bsky.app/profile/exobeatriz.bsky.social"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <BlueskyIcon className="h-6 text-gray-500 dark:text-gray-300 hover:text-primary-400 cursor-pointer" />
+        <BlueskyIcon className={iconClass} />
       </a>
       <a
         href="mailto:becampos@mpia.de"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <EmailIcon className="h-6 text-gray-500 dark:text-gray-300 hover:text-primary-400 cursor-pointer" />
+        <EmailIcon className={iconClass} />
       </a>
     </div>
   );
