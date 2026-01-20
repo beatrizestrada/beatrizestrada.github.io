@@ -13,14 +13,14 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     title:
-      "The JWST weather report from the nearest brown dwarfs III: Heterogeneous clouds and Thermochemical instabilities as possible drivers of WISE 1049AB's spectroscopic variability",
+      "The JWST Weather Report from the Nearest Brown Dwarfs III: Heterogeneous Clouds and Thermochemical Instabilities as Possible Drivers of WISE 1049AB’s Spectroscopic Variability",
     author: "Natalia Oliveros-Gomez",
     otherAuthors:
      "Elena Manjavacas, Theodora Karalidi, Myrla Phillippe, Beatriz Campos Estrada, Beth Biller, Johanna M. Vos, Jacqueline Faherty, Xueqing Chen, Trent J. Dupuy, Thomas Henning, Allison M. McCarthy, Philip S. Muirhead, Elspeth K. H. Lee, Pascal Tremblin, Jasmine Ramirez, Genaro Suarez, Ben J. Sutlieff, Xianyu Tan, Nicolas Crouzet",
     journal: "ApJ",
-    month: 11,
-    year: 2025,
-    doi: "https://doi.org/10.48550/arXiv.2511.15667",
+    month: 01,
+    year: 2026,
+    doi: "https://doi.org/10.3847/1538-4357/ae21d9",
     ads: "https://ui.adsabs.harvard.edu/abs/2025arXiv251115667O",
   },
   {
