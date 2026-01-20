@@ -18,7 +18,7 @@ export const publications: Publication[] = [
     otherAuthors:
      "Elena Manjavacas, Theodora Karalidi, Myrla Phillippe, Beatriz Campos Estrada, Beth Biller, Johanna M. Vos, Jacqueline Faherty, Xueqing Chen, Trent J. Dupuy, Thomas Henning, Allison M. McCarthy, Philip S. Muirhead, Elspeth K. H. Lee, Pascal Tremblin, Jasmine Ramirez, Genaro Suarez, Ben J. Sutlieff, Xianyu Tan, Nicolas Crouzet",
     journal: "ApJ",
-    month: 01,
+    month: 1,
     year: 2026,
     doi: "https://doi.org/10.3847/1538-4357/ae21d9",
     ads: "https://ui.adsabs.harvard.edu/abs/2025arXiv251115667O",
