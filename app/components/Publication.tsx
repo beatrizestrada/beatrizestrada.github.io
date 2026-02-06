@@ -31,6 +31,7 @@ export default function Publication({
   journal,
   doi,
   ads,
+  data,
 }: PublicationProps) {
   const [showFullAuthors, setShowFullAuthors] = useState(false);
   const referenceAuthors = ["Beatriz Campos Estrada"];
@@ -67,22 +68,45 @@ export default function Publication({
           })}
         {otherAuthorsList.length > authorsWithinLimit && (
           <>
-            <span>{!showFullAuthors ? `, and ` : `, `}</span>
-            <span
-              className="text-gray-500 dark:text-gray-300 cursor-pointer underline underline-offset-3 hover:text-gray-600 dark:hover:text-gray-200"
-              onClick={() => setShowFullAuthors((prev) => !prev)}
-            >
-              {!showFullAuthors
-                ? `${otherAuthorsList.length - authorsWithinLimit} more`
-                : `${otherAuthorsList.slice(authorsWithinLimit).join(", ")}`}
-            </span>
+            {!showFullAuthors ? (
+              <>
+                <span>{`, and `}</span>
+                <span
+                  className="text-gray-500 dark:text-gray-300 cursor-pointer underline underline-offset-3 hover:text-gray-600 dark:hover:text-gray-200"
+                  onClick={() => setShowFullAuthors(true)}
+                >
+                  {otherAuthorsList.length - authorsWithinLimit} more
+                </span>
+              </>
+            ) : (
+              otherAuthorsList
+                .slice(authorsWithinLimit)
+                .map((author, index) => {
+                  const isReferenceAuthor = referenceAuthors.includes(author);
+        
+                  return (
+                    <span key={`extra-${index}`}>
+                      <span>{`, `}</span>
+                      <span
+                        className={
+                          isReferenceAuthor
+                            ? "underline underline-offset-3"
+                            : ""
+                        }
+                      >
+                        {author}
+                      </span>
+                    </span>
+                  );
+                })
+            )}
           </>
         )}
       </p>
       <p>
         <span className="italic">{journal}</span>, <span>{date}</span>
       </p>
-      {(doi || ads) && (
+      {(doi || ads || data) && (
         <div className="flex space-x-2 mt-3">
           {doi && (
             <a
@@ -102,6 +126,16 @@ export default function Publication({
               rel="noopener noreferrer"
             >
               ADS
+            </a>
+          )}
+          {data && (
+            <a
+              href={data}
+              className="outline-1 px-3 py-0.5 rounded text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MODEL GRID
             </a>
           )}
         </div>
