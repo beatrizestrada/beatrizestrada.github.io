@@ -8,7 +8,7 @@ export interface Publication {
   doi?: string;
   ads?: string;
   data?: string;
-  software? string;
+  software?: string;
   highlight?: boolean;
 }
 
