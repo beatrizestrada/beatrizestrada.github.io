@@ -46,6 +46,7 @@ export const publications: Publication[] = [
     year: 2025,
     doi: "https://doi.org/10.1051/0004-6361/202451562",
     ads: "https://ui.adsabs.harvard.edu/abs/2025A&A...694A.275C",
+    data: "https://doi.org/10.5281/zenodo.18507920",
     highlight: true,
   },
   {
