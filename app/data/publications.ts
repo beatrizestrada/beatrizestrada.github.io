@@ -7,6 +7,7 @@ export interface Publication {
   otherAuthors?: string;
   doi?: string;
   ads?: string;
+  data?: string;
   highlight?: boolean;
 }
 
