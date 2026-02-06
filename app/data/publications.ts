@@ -74,6 +74,7 @@ export const publications: Publication[] = [
     year: 2024,
     doi: "https://doi.org/10.1093/mnras/stae095",
     ads: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.1249C",
+    data: "https://doi.org/10.17894/ucph.bce474ac-c363-4ce5-acf5-9eaa75e53a3d",
     highlight: true,
   },
   {
