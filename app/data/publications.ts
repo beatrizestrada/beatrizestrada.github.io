@@ -8,6 +8,7 @@ export interface Publication {
   doi?: string;
   ads?: string;
   data?: string;
+  software? string;
   highlight?: boolean;
 }
 
@@ -96,5 +97,6 @@ export const publications: Publication[] = [
     year: 2020,
     doi: "https://doi.org/10.1093/mnras/stz3435",
     ads: "https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.5287O",
+    software: "https://ascl.net/2011.015",
   },
 ];
