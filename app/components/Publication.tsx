@@ -32,6 +32,7 @@ export default function Publication({
   doi,
   ads,
   data,
+  software,
 }: PublicationProps) {
   const [showFullAuthors, setShowFullAuthors] = useState(false);
   const referenceAuthors = ["Beatriz Campos Estrada"];
@@ -136,6 +137,16 @@ export default function Publication({
               rel="noopener noreferrer"
             >
               MODEL GRID
+            </a>
+          )}
+          {software && (
+            <a
+              href={software}
+              className="outline-1 px-3 py-0.5 rounded text-sm"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SOFTWARE
             </a>
           )}
         </div>
